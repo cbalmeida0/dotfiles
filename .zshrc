@@ -49,7 +49,7 @@ export TERM=xterm-256color
 
 # fixing suspend/resume on vim
 alias vim="stty stop '' -ixoff ; vim"
-export GITHUB_TOKEN="141ac5143d7fc424a203f514e10dc40d"
+export GITHUB_TOKEN=""
 ttyctl -f
 
 bindkey -v
