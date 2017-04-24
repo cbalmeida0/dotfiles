@@ -40,6 +40,8 @@ export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools
 export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
 export PATH=$HOME/bin:$PATH
 export EDITOR=vim
+export http_proxy=http://spoflpxy0003.indusval.com.br:8080
+export https_proxy=http://spoflpxy0003.indusval.com.br:8080
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
@@ -49,7 +51,7 @@ export TERM=xterm-256color
 
 # fixing suspend/resume on vim
 alias vim="stty stop '' -ixoff ; vim"
-export GITHUB_TOKEN=""
+export GITHUB_TOKEN="141ac5143d7fc424a203f514e10dc40d"
 ttyctl -f
 
 bindkey -v
