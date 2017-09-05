@@ -11,7 +11,6 @@ ZSH_THEME="duke"
 alias dotfiles="cd ~/projects/dotfiles"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias imposition="git fetch && git co devel && git pull origin devel && git branch --merged | egrep -v \"(^\*|master|devel)\" | xargs git branch -d && git remote prune origin"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -31,7 +30,6 @@ alias imposition="git fetch && git co devel && git pull origin devel && git bran
 # PLUGINS
 plugins=(git lol archlinux)
 
-source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
@@ -41,8 +39,8 @@ export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools
 export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
 export PATH=$HOME/bin:$PATH
 export EDITOR=vim
-export http_proxy=http://spoflpxy0003.indusval.com.br:8080
-export https_proxy=http://spoflpxy0003.indusval.com.br:8080
+export http_proxy=http://spodcpxy0001.indusval.com.br:8080
+export https_proxy=http://spodcpxy0001.indusval.com.br:8080
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
