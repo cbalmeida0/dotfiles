@@ -2,6 +2,7 @@
 "  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 "  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 "  Copy this file to /home/user/.vimrc
+"  Enter at VIM and execute :BundleInstall
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ENCODING
