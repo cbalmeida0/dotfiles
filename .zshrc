@@ -41,8 +41,6 @@ export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools
 export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
 export PATH=$HOME/bin:$PATH
 export EDITOR=vim
-export http_proxy=http://spoflpxy0003.indusval.com.br:8080
-export https_proxy=http://spoflpxy0003.indusval.com.br:8080
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
