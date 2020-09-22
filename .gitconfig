@@ -26,7 +26,3 @@
   l = log --pretty=\"format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset\" --all
 [push]
 	default = matching
-[http]
-	proxy = http://spoflpxy0003.indusval.com.br:8080
-[https]
-	proxy = http://spoflpxy0003.indusval.com.br:8080
